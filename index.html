@@ -11,14 +11,14 @@
 <body>
     <h1>猜數字</h1>
     <p>請輸入1~100之間的數字</p>
-    <label for="answer" >Ans: </label>
+    <!-- <label id="answer">Ans: </label> -->
     <form>
         <div>
-            <input type="text" id="inputNum" name="inputNum">
-            <button type="button" onclick="CheckNum()">送出</button>
-            <label for="result"></label>
+            <input type="text" id="inputNum" name="inputNum" size="10">
+            <button type="button" id="ok" onclick="CheckNum()">送出</button>
         </div>
     </form>
+    <label id="result" class="result"></label>
 </body>
 
 </html>

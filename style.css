@@ -3,3 +3,9 @@ body {
     text-align: center;
     background-color: darkgray;
 }
+
+.result {
+    color: red;
+    font-size:larger;
+    font-weight: bold;
+}
