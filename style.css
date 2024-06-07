@@ -9,3 +9,16 @@ body {
     font-size:larger;
     font-weight: bold;
 }
+
+#historyContainer{
+    width: 80%;
+    max-width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
